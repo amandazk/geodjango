@@ -79,7 +79,9 @@ DATABASES = {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'agricom',
         'USER': 'postgres',
-        'HOST': 'localhost:5432'
+        'PASSWORD': 'pgadminaz123',
+        'HOST': 'localhost',
+        'PORT': '5432'
     }
 }
 
